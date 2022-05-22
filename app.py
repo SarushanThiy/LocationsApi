@@ -38,6 +38,14 @@ def locations_handlers_name(name):
     resp, code = fns[request.method](request, name)
     return jsonify(resp), code
 
+# Find route by country
+@app.route('/locations/<country>', methods=['GET'])
+def locations_handlers_country(Country):
+    fns = {
+        'GET': locations.show_by_country,
+    }
+    resp, code = fns[request.method](request, Country)
+    return jsonify(resp), code
 
 # Handling Errors
 @app.errorhandler(exceptions.NotFound)

@@ -247,6 +247,8 @@ locations = [
 def index(req):
     return [l for l in locations], 200
 
+
+# Functions to find locations by id
 def show_by_id(req, uid):
     return find_by_uid(uid), 200
 
@@ -256,11 +258,24 @@ def find_by_uid(uid):
     except:
         raise BadRequest(f"Can't find the location with {uid}")
 
+# Functions to find locations by name
 def show_by_name(req, Name):
     return find_by_name(Name), 200
 
 def find_by_name(Name):
     try:
-        return next( location for location in locations if location['Name'] == Name)
+        return next( location['Name'] for location in locations if location['Name'] == Name)
     except:
         raise BadRequest(f"Can't find the location by name {Name}")
+
+
+# Functions to show locations by country
+def show_by_country(req, Country):
+    return find_by_country(Country), 200
+
+def find_by_country(Country):
+    try:
+        return next( location for location in locations if location['Country'] == Country)
+    except:
+        raise BadRequest(f"Can't find the location by country {Country}")
+
