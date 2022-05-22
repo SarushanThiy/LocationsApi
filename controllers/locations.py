@@ -256,11 +256,11 @@ def find_by_uid(uid):
     except:
         raise BadRequest(f"Can't find the location with {uid}")
 
-def show_by_name(req, name):
-    return find_by_name(name), 200
+def show_by_name(req, Name):
+    return find_by_name(Name), 200
 
-def find_by_name(name):
+def find_by_name(Name):
     try:
-        return next( location for location in locations if location['name'] == name)
+        return next( location for location in locations if location['Name'] == Name)
     except:
-        raise BadRequest(f"Can't find the location by name {name}")
+        raise BadRequest(f"Can't find the location by name {Name}")
