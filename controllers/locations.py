@@ -253,11 +253,11 @@ def show_names(req):
 
 # Function to show all countries
 def show_countries(req):
-    return [location["Country"] for location in locations], 200
+    return list(dict.fromkeys([location["Country"] for location in locations])), 200
 
 # Function to show all continents
 def show_continents(req):
-    return [location["Continent"] for location in locations], 200
+    return list(dict.fromkeys([location["Continent"] for location in locations])), 200
 
 # Functions to find locations by id
 def show_by_id(req, uid):
