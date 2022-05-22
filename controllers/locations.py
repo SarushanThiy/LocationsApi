@@ -235,7 +235,7 @@ locations = [
     },
     {
         "id": 30,
-        "Name": "Pa Tong",
+        "Name": "Patong",
         "City/Beach": "Beach",
         "Country": "Thailand",
         "Continent": "Asia",
