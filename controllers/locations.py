@@ -249,7 +249,7 @@ def index(req):
 
 # Function to show all names
 def show_names(req):
-    return [location["Name"] for location in locations], 200
+    return list(dict.fromkeys([location["Name"] for location in locations])), 200
 
 # Function to show all countries
 def show_countries(req):
