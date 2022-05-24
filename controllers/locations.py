@@ -240,7 +240,95 @@ locations = [
         "Country": "Thailand",
         "Continent": "Asia",
         "Img": "https://a.cdn-hotels.com/gdcs/production2/d1117/295d586d-6a84-415f-8551-0eb1deb169ba.jpg?impolicy=fcrop&w=800&h=533&q=medium"
-    }
+    },
+    {
+        "id": 31,
+        "Name": "Miami Beach",
+        "cityBeach": "Beach",
+        "Country": "United States",
+        "Continent": "North America",
+        "Img": "http://wikireviews.com/blog/wp-content/uploads/2015/03/Top-10-Beaches-in-North-America.jpg"
+    },
+    {
+        "id": 32,
+        "Name": "Tulum Beach",
+        "cityBeach": "Beach",
+        "Country": "Mexico",
+        "Continent": "North America",
+        "Img": "https://www.worlds50beaches.com/wp-content/uploads/2018/11/header-top100-beach5-580x276.jpg"
+    },
+    {
+        "id": 33,
+        "Name": "Cannon Beach",
+        "cityBeach": "Beach",
+        "Country": "United States",
+        "Continent": "North America",
+        "Img": "https://www.worlds50beaches.com/wp-content/uploads/2018/10/header-north-america-beach11-580x276.jpg"
+    },
+    {
+        "id": 34,
+        "Name": "Green Sand Beach",
+        "cityBeach": "Beach",
+        "Country": "United States",
+        "Continent": "North America",
+        "Img": "https://www.worlds50beaches.com/wp-content/uploads/2018/10/header-north-america-beach12-580x276.jpg"
+    },
+    {
+        "id": 35,
+        "Name": "Cape Town",
+        "cityBeach": "City",
+        "Country": "South Africa",
+        "Continent": "Africa",
+        "Img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/10/2e/1e/cape-town.jpg?w=700&h=-1&s=1"
+    },
+    {
+        "id": 36,
+        "Name": "Nairobi",
+        "cityBeach": "City",
+        "Country": "Kenya",
+        "Continent": "Africa",
+        "Img": "https://content.r9cdn.net/rimg/dimg/c6/b2/7e865843-city-26243-164a4a25d83.jpg?width=1366&height=768&xhint=3968&yhint=1450&crop=true"
+    },
+    {
+        "id": 37,
+        "Name": "Rio de Janeiro",
+        "cityBeach": "City",
+        "Country": "Brazil",
+        "Continent": "South America",
+        "Img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6f/5f/fa.jpg"
+    },
+    {
+        "id": 38,
+        "Name": "São Paulo",
+        "cityBeach": "City",
+        "Country": "Brazil",
+        "Continent": "South America",
+        "Img": "https://cdn.britannica.com/54/101754-050-3FA9B4A0/Downtown-Sao-Paulo.jpg"
+    },
+    {
+        "id": 39,
+        "Name": "Ica",
+        "cityBeach": "Beach",
+        "Country": "Peru",
+        "Continent": "South America",
+        "Img": "https://img.theculturetrip.com/768x/smart/wp-content/uploads/2021/02/2atcn88.jpg"
+    },
+    {
+        "id": 40,
+        "Name": "Valparaíso",
+        "cityBeach": "Beach",
+        "Country": "Chile",
+        "Continent": "South America",
+        "Img": "https://img.theculturetrip.com/768x/smart/wp-content/uploads/2021/02/r28370.jpg"
+    },
+    {
+        "id": 41,
+        "Name": "Concha",
+        "cityBeach": "Beach",
+        "Country": "Colombia",
+        "Continent": "South America",
+        "Img": "https://img.theculturetrip.com/768x/smart/wp-content/uploads/2021/02/c3ty28.jpg"
+    },
 ]
 
 # Function to get all locations
